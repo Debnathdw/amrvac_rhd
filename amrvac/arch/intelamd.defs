@@ -1,0 +1,5 @@
+F90=mpiifort
+FFLAGS = -c
+F90FLAGS = -free -implicitnone -O2 -march=core-avx2
+LINK= $(F90)  $(F90FLAGS)
+
