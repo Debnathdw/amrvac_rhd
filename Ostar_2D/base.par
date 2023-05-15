@@ -116,4 +116,5 @@
    read_cak_table = .true. 
    fd_correction = .true.
    kappa_read_table = .false.
+   static_rph = 20 !> in global times
 /
